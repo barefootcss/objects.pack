@@ -12,7 +12,7 @@ The `pack` object creates equal-width layouts.
 
 Install using Bower:
 
-	$ bower --save bare-pack
+	$ bower install --save bare-pack
 
 Import into project:
 
