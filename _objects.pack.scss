@@ -1,0 +1,102 @@
+// 
+// Declarations  
+// ========================================================================== 
+
+// 
+// Features:
+// 
+
+$bare-pack--xs:						false !default;
+$bare-pack--s:						false !default;
+$bare-pack--m:						false !default;
+$bare-pack--l:						false !default;
+$bare-pack--xl:						false !default;
+
+
+/* 
+   #pack
+   ========================================================================== */
+
+/**
+ * The pack object creates equal-width layouts.
+ *
+ * Usage:
+ *
+ * <div class="pack">
+ *     <div class="pack__item"></div>
+ *     <div class="pack__item"></div>
+ *     <div class="pack__item"></div>
+ * </div>
+ *
+ * Thanks to Inuit.css for the idea. 
+ */
+
+.#{$bare-ns}pack {
+	display: table;
+	table-layout: fixed;
+	width: 100%;	
+
+	> .#{$bare-ns}pack__item {
+		display: table-cell;
+	}
+}
+
+// 
+// #pack--xs
+// ========================================================================== 
+
+@if ($bare-pack--xs == true) {
+
+	.#{$bare-ns}pack--xs {
+		border-spacing: bareRem($bare-sp-xs);
+	}
+
+}
+
+// 
+// #pack--s
+// ========================================================================== 
+
+@if ($bare-pack--s == true) {
+
+	.#{$bare-ns}pack--s {
+		border-spacing: bareRem($bare-sp-s);
+	}
+
+}
+
+// 
+// #pack--m
+// ========================================================================== 
+
+@if ($bare-pack--m == true) {
+
+	.#{$bare-ns}pack--m {
+		border-spacing: bareRem($bare-sp-m);
+	}
+
+}
+
+// 
+// #pack--l
+// ========================================================================== 
+
+@if ($bare-pack--l == true) {
+
+	.#{$bare-ns}pack--l {
+		border-spacing: bareRem($bare-sp-l);
+	}
+
+}
+
+// 
+// #pack--xl
+// ========================================================================== 
+
+@if ($bare-pack--xl == true) {
+
+	.#{$bare-ns}pack--xl {
+		border-spacing: bareRem($bare-sp-xl);
+	}
+
+}
