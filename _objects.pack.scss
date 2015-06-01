@@ -84,7 +84,15 @@ $bare-pack--xl:						false !default;
 @if ($bare-pack--l == true) {
 
 	.#{$bare-ns}pack--l {
-		border-spacing: bareRem($bare-sp-l);
+		border-spacing: bareRem($bare-sp-m);
+	}
+
+	@media (min-width: bareMedia($bare-bp-s)) {
+
+		.#{$bare-ns}pack--l {
+			border-spacing: bareRem($bare-sp-l);
+		}
+
 	}
 
 }
@@ -96,7 +104,15 @@ $bare-pack--xl:						false !default;
 @if ($bare-pack--xl == true) {
 
 	.#{$bare-ns}pack--xl {
-		border-spacing: bareRem($bare-sp-xl);
+		border-spacing: bareRem($bare-sp-l);
+	}
+
+	@media (min-width: bareMedia($bare-bp-s)) {
+
+		.#{$bare-ns}pack--xl {
+			border-spacing: bareRem($bare-sp-xl);
+		}
+
 	}
 
 }
