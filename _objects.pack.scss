@@ -22,21 +22,21 @@ $bare-pack--xl:						false !default;
  *
  * Usage:
  *
- * <div class="pack">
- *     <div class="pack__item"></div>
- *     <div class="pack__item"></div>
- *     <div class="pack__item"></div>
+ * <div class="o-pack">
+ *     <div class="o-pack__item"></div>
+ *     <div class="o-pack__item"></div>
+ *     <div class="o-pack__item"></div>
  * </div>
  *
  * Thanks to Inuit.css for the idea. 
  */
 
-.#{$bare-ns}pack {
+.o-pack {
 	display: table;
 	table-layout: fixed;
 	width: 100%;	
 
-	> .#{$bare-ns}pack__item {
+	> .o-pack__item {
 		display: table-cell;
 	}
 }
@@ -47,7 +47,7 @@ $bare-pack--xl:						false !default;
 
 @if ($bare-pack--xs == true) {
 
-	.#{$bare-ns}pack--xs {
+	.o-pack--xs {
 		border-spacing: bareRem($bare-sp-xs);
 	}
 
@@ -59,7 +59,7 @@ $bare-pack--xl:						false !default;
 
 @if ($bare-pack--s == true) {
 
-	.#{$bare-ns}pack--s {
+	.o-pack--s {
 		border-spacing: bareRem($bare-sp-s);
 	}
 
@@ -71,7 +71,7 @@ $bare-pack--xl:						false !default;
 
 @if ($bare-pack--m == true) {
 
-	.#{$bare-ns}pack--m {
+	.o-pack--m {
 		border-spacing: bareRem($bare-sp-m);
 	}
 
@@ -83,16 +83,8 @@ $bare-pack--xl:						false !default;
 
 @if ($bare-pack--l == true) {
 
-	.#{$bare-ns}pack--l {
-		border-spacing: bareRem($bare-sp-m);
-	}
-
-	@media (min-width: bareMedia($bare-bp-s)) {
-
-		.#{$bare-ns}pack--l {
-			border-spacing: bareRem($bare-sp-l);
-		}
-
+	.o-pack--l {
+		border-spacing: bareRem($bare-sp-l);
 	}
 
 }
@@ -103,16 +95,8 @@ $bare-pack--xl:						false !default;
 
 @if ($bare-pack--xl == true) {
 
-	.#{$bare-ns}pack--xl {
-		border-spacing: bareRem($bare-sp-l);
-	}
-
-	@media (min-width: bareMedia($bare-bp-s)) {
-
-		.#{$bare-ns}pack--xl {
-			border-spacing: bareRem($bare-sp-xl);
-		}
-
+	.o-pack--xl {
+		border-spacing: bareRem($bare-sp-xl);
 	}
 
 }
