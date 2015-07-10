@@ -3,9 +3,9 @@
 The `pack` object creates equal-width layouts.
 
 	<div class="o-pack">
-		<div class="pack__item"></div>
-		<div class="pack__item"></div>
-		<div class="pack__item"></div>
+		<div class="o-pack__item"></div>
+		<div class="o-pack__item"></div>
+		<div class="o-pack__item"></div>
 	</div>
 
 ## Installation
@@ -25,9 +25,9 @@ Import into project:
 The `pack--xs` option applies an extra-small gutter between columns.
 
 	<div class="o-pack o-pack--xs">
-		<div class="pack__item"></div>
-		<div class="pack__item"></div>
-		<div class="pack__item"></div>
+		<div class="o-pack__item"></div>
+		<div class="o-pack__item"></div>
+		<div class="o-pack__item"></div>
 	</div>
 
 **pack--s**
@@ -35,9 +35,9 @@ The `pack--xs` option applies an extra-small gutter between columns.
 The `pack--s` option applies a small gutter between columns.
 
 	<div class="o-pack o-pack--s">
-		<div class="pack__item"></div>
-		<div class="pack__item"></div>
-		<div class="pack__item"></div>
+		<div class="o-pack__item"></div>
+		<div class="o-pack__item"></div>
+		<div class="o-pack__item"></div>
 	</div>
 
 **pack--m**
@@ -45,9 +45,9 @@ The `pack--s` option applies a small gutter between columns.
 The `pack--m` option applies a medium gutter between columns.
 
 	<div class="o-pack o-pack--m">
-		<div class="pack__item"></div>
-		<div class="pack__item"></div>
-		<div class="pack__item"></div>
+		<div class="o-pack__item"></div>
+		<div class="o-pack__item"></div>
+		<div class="o-pack__item"></div>
 	</div>
 
 **pack--l**
@@ -55,9 +55,9 @@ The `pack--m` option applies a medium gutter between columns.
 The `pack--ls` option applies an large gutter between columns.
 
 	<div class="o-pack o-pack--l">
-		<div class="pack__item"></div>
-		<div class="pack__item"></div>
-		<div class="pack__item"></div>
+		<div class="o-pack__item"></div>
+		<div class="o-pack__item"></div>
+		<div class="o-pack__item"></div>
 	</div>
 
 **pack--xl**
@@ -65,7 +65,7 @@ The `pack--ls` option applies an large gutter between columns.
 The `pack--xl` option applies an extra-large gutter between columns.
 
 	<div class="o-pack o-pack--xl">
-		<div class="pack__item"></div>
-		<div class="pack__item"></div>
-		<div class="pack__item"></div>
+		<div class="o-pack__item"></div>
+		<div class="o-pack__item"></div>
+		<div class="o-pack__item"></div>
 	</div>
